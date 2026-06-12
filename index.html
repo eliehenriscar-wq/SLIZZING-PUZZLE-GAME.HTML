@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sliding Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Sliding Puzzle</h1>
+
+  <div id="game-wrap">
+
+    <div id="stats">
+      <div class="stat">
+        <span class="stat-label">Mouvman</span>
+        <span class="stat-val" id="moves">0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Tan</span>
+        <span class="stat-val" id="timer">0:00</span>
+      </div>
+    </div>
+
+    <div id="board"></div>
+
+    <p id="msg">Klike sou pyes ki bò vid la pou deplase li!</p>
+
+    <button id="shuffle-btn" onclick="shuffle()">🔀 Bat kat</button>
+
+  </div>
+
+  <footer>Mete pyes 1–15 nan lòd · Kaz vid ann dènye</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
